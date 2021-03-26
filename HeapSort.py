@@ -18,7 +18,4 @@ def heapsort(lista):
 	for i in range(n-1, 0, -1):
 		lista[i], lista[0] = lista[0], lista[i]
 		heapify(lista, i, 0)
-
-l = list(range(10))
-heapsort(l)
-print(l)
+		
